@@ -12,6 +12,7 @@
  - 일반적으로 현실에서 가장 많이 사용하는 방식 </BR>
    ex) 스트레인 게이지(금속선의 저항변화를 통한 측정)
 
+</BR></BR></BR>
 
 # 2. 계측계
  - 일반적으로 3가지 요소로 구성
@@ -19,3 +20,5 @@
  1) 센서 변환기(sensor-tranducer)
  2) 신호 조정기(signal conditioner)
  3) 판독기 (readout-recording)
+
+
