@@ -1,4 +1,37 @@
-# 1. 정확도
+# 목적
+ - 계측공학을 이해하기 위해 필요한 기본 개념들에 대해 정의함 \
+   </br></br>
+
+# 1. 오차
+ - 측정값과 참값의 차
+ - 오차의 종류는 3가지로 분류
+   
+   - Sysmetic Error(Bias Error) : 반복 측정 시 <B>일정 방향과 크기</B>로 나타나는 오차 (정확도).
+   - Random error(Precision Error) : 측정 시마다 <B>불규칙</B>하게 나타나는 오차. 주로 노이즈/환경요인에 의해 발생. (정밀도)
+   - Total Error : Bias error + precision error
+ - Bias Error 의 경우, 교정(Calibration)을 통해 조정 가능. 상세하게는 다음과 같은 형태의 오차 존재
+        
+   - Calibration Error : 교정 오차, 센서가 잘못된 기준값으로 교정됨. 가장 일반적인 bias error.
+   - zero offset error : 입력이 0일때 출력이 0이 아닌 경우 오차.
+   - Resolution Eror : 분해능의 한계로 생기는 오차. (resoultion 0.1인 기기에서 0.05 입력)
+   - Sensitivity Error : 센서의 출력변화가 입력 변화에 비례하지 않는 오차 (1V/1℃ 감도 센서에서 0.9V/1℃).
+   - Drift : 시간, 또는 온도의 변화에 따라 출력이 서서히 변화
+ - Precision Error의 경우 교정으로 조정이 어려움. 적절한 센서의 선택과 필터링, 평균화 등을 통해 해결 필요함. 상세 오차는 다음과 같음.
+   - Repeatability Error : 같은 장비와 조건에서 반복 측정 시 결과가 다름
+   - Reproducibility Error : 서로 다른 장비, 사용자, 환경에서 측정 시 결과가 다름
+   - Noise-Induced Error : 전기 잡음, 기계 진동, EMI등에 의한 오차
+   - Quantization Error : 디지털 센서에서 아날로그 입력을 디지털 근사화 시 발생하는 오차
+ - Bias Error일 수 있으며 Precision Error일 수 있는 오차는 다음과 같음
+   - Hysterisys Error : 입력이 증가 하거나 감소 할 때, 같은 입력에 대해 출력이 다르게 나타나는 오차
+     
+     - 10kg/cm2 일 때 5V인 압력계가 올라갈 때는 5V였다가 내려갈 때는 10kg/cm2에서 4.95V
+     - 일반적으로 방향성이 있고(패턴 있음) 반복 측정에서 재현이 가능하다는 점에서 Sysmetic error로 분류 (교정 가능)
+     - 다만 비선형/비대칭/시간 의존성에 따라 반복 패턴이 나타나지 않는 경우 Precision Error로서 분류 (교정 불가)
+   </br></br>
+   ![fig2_error](https://github.com/user-attachments/assets/fb75cb9e-ccfc-43e0-98ba-eab1926e112c)
+
+
+# 2. 정확도
  - 정확도란 <B>실제 값과 계측기가 측정한 값의 차이</B>
  - "얼마나 진짜 값에 가까운가?"
  - 실제 온도가 100도인 경우 센서가 98도를 표시한다면, 센서의 정확도는 ± 2°C
@@ -16,7 +49,7 @@
      - 교정된 기준온도 비교 시 ± 0.2°C
 </br></br>
 
-# 2. 정밀도
+# 3. 정밀도
  - 정밀도란 <B>같은 입력을 반복 했을 때, 출력값들이 얼마나 일관성있게 모이는지의 척도</B>
  - 재현성과 반복성
  - 값의 퍼짐 정도
@@ -57,7 +90,6 @@
  - x축 : sqrt((x1-2500)^2 + .. + (x10-2500^) / 10 ) = 37.683 </br>
  - y축 : sqrt((y1-2500)^2 + .. + (y10-2500^) / 10 ) = 43.589 </br>
  - 표준편차 기준 : ±37.683, ±43.589 </br>
- - Repeatability 기준 : ±75.36, ±87.18 </br>
 </details>
 
  
