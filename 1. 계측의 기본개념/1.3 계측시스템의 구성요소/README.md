@@ -29,3 +29,4 @@
 - PLC (Programmable Logic Controller): 제어 신호 처리, 자동제어
 - 서버 시스템: 장기 저장, 네트워크 전송
 - 연결 방식: Ethernet, RS-485, 4–20 mA 등 산업 통신 표준 사용
+</br></br>
