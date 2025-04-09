@@ -30,7 +30,7 @@
 
 ## 1.2 계산 방법
     
-### 1.2.1 Root Mean Square(RMS) Method
+### 1.2.1 Root Sum Square(RSS) Method
  
 - 여러 불확실도 요소들을 합할 떄 사용
 - ![image](https://github.com/user-attachments/assets/d9dc4f4e-33e9-4a3a-a7cd-26c09c251ba3)
