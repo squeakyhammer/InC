@@ -30,3 +30,6 @@
 - 서버 시스템: 장기 저장, 네트워크 전송
 - 연결 방식: Ethernet, RS-485, 4–20 mA 등 산업 통신 표준 사용
 </br></br>
+
+![fig1_blockDiagram_INC](https://github.com/user-attachments/assets/e4b74a13-3e1e-4951-8262-9bef78735b7a)
+
