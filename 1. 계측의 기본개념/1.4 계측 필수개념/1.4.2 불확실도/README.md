@@ -109,6 +109,7 @@
  -> Transmitter span: 0~200°C (즉, 4mA = 0°C, 20mA = 200°C)
 
 <details>
+  <summary>[정답]</summary>
 - RTD 센서의 불확실도 : ±0.15°C + 0.002 × 100 = ±0.35°C, ±0.35/sqrt(3) = ± 0.202°C </br>
 - Transmitter불확실도 : 200 °C x ±0.1% = ±0.2°C, 0.2/sqrt(3) = ± 0.115°C </br>
 - 케이블 : n/a </br>
