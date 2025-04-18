@@ -37,3 +37,23 @@
   - <B>따라서 Vout/Vin = -Rf/Ri</B>
     </BR></BR>
   
+## 1.3 차등증폭기(Diffrential Amplifier)
+![image](https://github.com/user-attachments/assets/8b79a93d-3006-451e-a59b-8f9782de6b1b)
+</br>
+
+- 회로 해석
+  - I1 = I+ + Ig
+  - I2 = I_ + If
+  - I+ = I_ = 0
+  - 따라서 I1 = Ig (1), I2 = If (2) 
+  - Ig = (Va - 0)/Rg
+  - If = (Vout - Vb)/Rf
+  - I1 = (V1-Va)/R1
+  - I2 = (V2-Vb)/R2
+  - (1)에 따라, (V1-Va)/R1 = Va/Rg
+  - (2)에 따라, (V2-Vb)/R2 = (Vout-Vb)/Rf
+  - Va = Vb이므로, Vb에 Va를 대입
+  - Vout에 대해 최종 정리 시 다음 식 도출
+  - ∴ Vout = (1 + Rf/R2)* (Rg/(R1+Rg))*V1 - Rf/R2 * V2
+  - 만약 R1=R2=Rg=Rf일 때, 식은
+  - ∴ Vout = V1-V2
