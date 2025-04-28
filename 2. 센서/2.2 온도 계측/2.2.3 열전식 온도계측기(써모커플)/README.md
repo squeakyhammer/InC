@@ -11,4 +11,19 @@
 - 기준 접점의 경우, cold junction compensation (CJC) 을 통해 보정
 
 # 3. 종류
+- 금속 쌍에 따라 구분
+- ANSI/IEC 표준
 
+|타입|재질 구성|사용 온도 범위|특성|
+|----|-------|-------------|-----|
+|K|	Chromel–Alumel|	-200°C ~ 1,250°C|	가장 범용, 산화에 강함|
+|J|	Iron–Constantan|	-40°C ~ 750°C|	환원 분위기에서 유리, 산화에 약함|
+|T|	Copper–Constantan|	-200°C ~ 350°C|	저온용, 높은 정밀도|
+|E|	Chromel–Constantan|	-200°C ~ 900°C|	높은 출력(전압), 정밀한 저온|
+|N|	Nicrosil–Nisil|	-200°C ~ 1,300°C|	고온 안정성, K 대체용|
+|R/S|	Pt–Rh / Pt|	0°C ~ 1,600°C|	고온 정밀 측정, 비싸고 응답 느림|
+|B|	Pt–Rh / Pt–Rh|	0°C ~ 1,700°C|	고온 전용, 600°C 이상에서만 정확|
+</BR></BR>
+
+# 4. 설치
+-   
