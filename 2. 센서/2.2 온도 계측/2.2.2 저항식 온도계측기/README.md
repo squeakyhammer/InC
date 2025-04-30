@@ -94,7 +94,8 @@
 ### 2.4.3 침수 깊이
 - 침수 깊이는 제품 공급자 매뉴얼에 따라 다름
 - 일반적으로 최소 침수 깊이가 명시됨(EX. 30mm)
-- 센서 직경의 5~10배 정도로 감지부가 침수 되도록 설치
+- 공식 기술 규준 상에는, <B>센서 직경의 5~10배</B> 정도로 감지부가 침수 되도록 설치
+  - “Sensor should be immersed at least 5 to 10 times the diameter of the thermowell”, ASTM EE877-13, Standard guide for thermowell selection and application
 </BR></BR>
 
 ## 2.5 선정 시 고려 사항
