@@ -65,4 +65,11 @@
 </BR></BR>
 
 # 4. 신호 처리
-
+- 샘플링 시 나이키스트 고려, 최소 2배 이상 주파수로 샘플링(보통 ~10배)
+- 필터링 시 원하는 대역대 확인 가능하도록 밴드패스 필터 사용
+- RMS신호는 다음과 같이 계산
+  
+  ![image](https://github.com/user-attachments/assets/0728db3d-f993-4b80-b93a-241861aa11df)
+- 분석을 위한 신호는 여러 형태로 표현
+  - FFT(Fast Fourier Transform) : 주파수 성분 분석, 회전 기기 고장 확인 시 유용(1X, 2X성분 확인)
+  - PSD(Power Spectral Density) : 단위 주파수당 에너지 분포, 랜덤 진동, 충격/소음 분석
