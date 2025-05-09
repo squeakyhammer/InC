@@ -1,4 +1,4 @@
-## 1. 연산증폭기(Operation Amplifier, OP-AMP)
+# 1. Amplifier - 연산증폭기(Operation Amplifier, OP-AMP)
  - 입력된 전압을 증폭시켜 출력하는 직류 연결형 고이득 전압 증폭기
  - 일반적으로 부귀환(Negative Feedback)을 통해 이득을 조절하여 사용
  - 이상적인 op-amp의 특성은 다음과 같음
@@ -10,6 +10,10 @@
 ## 1.1 비반전연산증폭기(Non-inverting amplifier)
 ![image](https://github.com/user-attachments/assets/439b380b-4939-4f99-82e9-37a6866c5934)
 </br>
+
+- 이득(Gain)만큼 입력이 증폭되어 출력
+- 피드백 저항의 비례하여 연산 증폭비를 조절
+- 출력 Vout = ( 1+ Rf/Ri</B> ) * Vin
 
 - 회로 해석
   - 연산 증폭기 출력이 되먹임 되므로 V_ = V+
@@ -26,6 +30,8 @@
   ![image](https://github.com/user-attachments/assets/c1f24986-2610-44e5-829b-adab039643fe)
  </br>
 
+- 비반전 연산증폭기와 다르게 입력 전압을 -단에 연결, 출력을 반전 증폭
+- 출력 Vout = -Rf/Ri * Vin
 - 회로 해석
   - 연산증폭기 출력이 되먹임되므로 V_ = V+
   - V_ = Va, V+ = gnd이므로 V_ = Va = 0(gnd) (이를 가상접지라 함)
@@ -57,3 +63,9 @@
   - ∴ Vout = (1 + Rf/R2)* (Rg/(R1+Rg))*V1 - Rf/R2 * V2
   - 만약 R1=R2=Rg=Rf일 때, 식은
   - ∴ Vout = V1-V2
+</br></br>
+
+# 2. Filter
+
+## 2.1 Low Pass Filter
+
