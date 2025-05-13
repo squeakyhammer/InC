@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a37ef4ac-57da-4279-880a-fe0dfafc45f6)# 1. Amplifier - 연산증폭기(Operation Amplifier, OP-AMP)
+# 1. Amplifier - 연산증폭기(Operation Amplifier, OP-AMP)
  - 입력된 전압을 증폭시켜 출력하는 직류 연결형 고이득 전압 증폭기
  - 일반적으로 부귀환(Negative Feedback)을 통해 이득을 조절하여 사용
  - 이상적인 op-amp의 특성은 다음과 같음
