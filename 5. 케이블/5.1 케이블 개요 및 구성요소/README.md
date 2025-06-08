@@ -18,6 +18,8 @@
 |차폐층|Aluminum Foil, Copper Braid|EMI 차폐, 기계적 보호|
 |외피|PVC, LSZH, Hypalon, PUR|내환경성, 난연성, 유해가스 억제|
 
+![image](https://github.com/user-attachments/assets/ebc7630a-0eb9-46e1-9e74-ddac4f3c60b2)
+
 </BR></BR>
 
 ## 1.4 케이블 종류별 특성 및 용도
